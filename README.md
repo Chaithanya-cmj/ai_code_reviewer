@@ -1,12 +1,33 @@
-# React + Vite
+# AI Code Reviewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AI Code Reviewer** is a project designed to assist developers in reviewing their code using artificial intelligence. This tool leverages advanced machine learning algorithms to analyze code, identify potential issues, and suggest improvements. It aims to enhance code quality, reduce bugs, and streamline the code review process.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Automated Code Review**: Automatically reviews code for common issues and best practices.
+- **Suggestions for Improvements**: Provides actionable suggestions to improve code quality.
+- **Support for Multiple Languages**: Compatible with various programming languages.
+- **Integration with CI/CD**: Easily integrates with continuous integration and continuous deployment pipelines.
+- **User-Friendly Interface**: Simple and intuitive interface for ease of use.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Himashree05/ai_code_reviewer
+
+2. Navigate to the project directories
+   ```sh
+   cd AI_code_reviewer
+
+3. run the backend server
+   install necessary packages
+   ```sh
+   cd backend
+   npx nodemon
+
+5. run the frontend server
+   follow basic steps to setup vite+react
+   ```sh
+   cd frontend
+   npm run dev
